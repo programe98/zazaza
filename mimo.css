@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+span.carregando{
+ 
+width: 
+30px;
+height: 30px;
+background-color: transparent;
+display: block;
+border: 3px solid rgb(197, 194, 194);
+border-top: 3px solid transparent;
+border-radius: 50%;
+animation:loading 1s linear infinite;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.informacao{
+    margin-left: 12px;
+}
